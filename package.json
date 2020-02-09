@@ -1,0 +1,30 @@
+{
+  "name": "dev-front",
+  "version": "1.0.0",
+  "description": "Treinando uma base sólida de HTML, CSS e JS criando um site do zero com foco nos elementos de interface e interações!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Silva/dev-front.git"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "html5",
+    "semântico",
+    "semantic",
+    "front-end",
+    "dev",
+    "developer",
+    "desenvolvedor"
+  ],
+  "author": "Daniel Silva <dani3l.dxp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Daniel-Silva/dev-front/issues"
+  },
+  "homepage": "https://github.com/Daniel-Silva/dev-front#readme"
+}
