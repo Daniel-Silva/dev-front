@@ -71,3 +71,19 @@ section {
 	background: var(--third-color);
 	border-radius: 2px;
 }
+
+.card-container {
+	width: 270px;
+	display: table;
+}
+
+.card {
+	width: 100%;
+	display: table;
+	background-color: var(--second-color);
+	border-radius: 2px;
+	box-shadow: 1px 2px 2px -1px rgba(0, 0, 0, 0.6);
+}
+
+.card img {
+}
