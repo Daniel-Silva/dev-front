@@ -1,0 +1,18 @@
+@keyframes rotateAnime {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.st1 {
+	animation: rotateAnime 15s linear infinite;
+	transform-origin: 50% 50%;
+}
