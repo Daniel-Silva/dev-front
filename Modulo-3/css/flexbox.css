@@ -1,9 +1,32 @@
-.cabecalhoPrincipal .container {
+.cabecalhoPrincipal .container,
+.cabecalhoPrincipal-nav,
+.rodapePrincipal-patrocinadores .container,
+.rodapePrincipal-patrocinadores-list,
+.rodapePrincipal-contatoForm-fieldset,
+.rodapePrincipal-navMap-list {
 	display: flex;
+}
+
+.cabecalhoPrincipal .container,
+.rodapePrincipal-patrocinadores-list {
 	align-items: center;
+}
+
+.cabecalhoPrincipal .container,
+.rodapePrincipal-patrocinadores .container {
 	justify-content: space-between;
 }
 
-.cabecalhoPrincipal-nav {
-	display: flex;
+.rodapePrincipal-patrocinadores-list {
+	justify-content: space-around;
+	width: 75%;
+}
+
+.rodapePrincipal-contatoForm {
+	width: 25%;
+}
+
+.rodapePrincipal-navMap-list {
+	flex-flow: column wrap;
+	height: 250px;
 }
